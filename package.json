@@ -9,6 +9,7 @@
     "tiles": "bash src/create_tiles.sh",
     "test": "node src/harness.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "ngeohash": "^0.6.3"
+  }
 }

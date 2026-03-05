@@ -3,9 +3,9 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-INPUT="$SCRIPT_DIR/world_regions.geojson"
-GRID="$SCRIPT_DIR/geohash_2.geojson"
-OUTDIR="$SCRIPT_DIR/public/regions"
+INPUT="$SCRIPT_DIR/../data/clean/merged.geojson"
+GRID="$SCRIPT_DIR/../data/clean/geohash_2.geojson"
+OUTDIR="$SCRIPT_DIR/../public/regions"
 
 mkdir -p "$OUTDIR"
 
