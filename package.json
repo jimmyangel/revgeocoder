@@ -1,0 +1,14 @@
+{
+  "name": "revgeocoder",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deterministic browser-side reverse geocoder with geohash-2 tiles",
+  "main": "src/harness.js",
+  "scripts": {
+    "start": "node src/harness.js",
+    "tiles": "bash src/create_tiles.sh",
+    "test": "node src/harness.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
