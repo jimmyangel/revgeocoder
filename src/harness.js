@@ -96,7 +96,55 @@ const tests = [
 	{ lat: 44.1194, lon: 15.2314, label: 'Zadar' },
 	{ lat: 44.0165, lon: 21.0059, label: 'Central Serbia' },
 	{ lat: 43.3438, lon: 17.8078, label: 'Mostar' },
-	{ lat: 41.1125, lon: 20.8016, label: 'Ohrid' }
+	{ lat: 41.1125, lon: 20.8016, label: 'Ohrid' },
+	// Hawaii
+	{ lat: 21.3069, lon: -157.8583, label: 'Honolulu (Oahu)' },
+	{ lat: 19.7297, lon: -155.0900, label: 'Hilo (Big Island)' },
+	{ lat: 20.8893, lon: -156.4729, label: 'Kahului (Maui)' },
+	{ lat: 21.9811, lon: -159.3711, label: 'Lihue (Kauai)' },
+
+	// Malta
+	{ lat: 35.8989, lon: 14.5146, label: 'Valletta (Malta)' },
+	{ lat: 35.8850, lon: 14.4033, label: 'Mdina (Malta)' },
+	{ lat: 36.0444, lon: 14.2397, label: 'Victoria (Gozo)' },
+
+	// Iceland
+	{ lat: 64.1466, lon: -21.9426, label: 'Reykjavik (Iceland)' },
+	{ lat: 65.6885, lon: -18.1262, label: 'Akureyri (Iceland)' },
+
+	// Japan islands
+	{ lat: 26.2124, lon: 127.6809, label: 'Naha (Okinawa)' },
+	{ lat: 43.0618, lon: 141.3545, label: 'Sapporo (Hokkaido)' },
+
+	// Philippines
+	{ lat: 14.5995, lon: 120.9842, label: 'Manila (Luzon)' },
+	{ lat: 10.3157, lon: 123.8854, label: 'Cebu City (Cebu)' },
+	{ lat: 7.1907, lon: 125.4553, label: 'Davao City (Mindanao)' },
+
+	// Indonesia
+	{ lat: -8.6500, lon: 115.2167, label: 'Denpasar (Bali)' },
+	{ lat: -3.6547, lon: 128.1900, label: 'Ambon (Maluku)' },
+
+	// Fiji
+	{ lat: -18.1248, lon: 178.4501, label: 'Suva (Fiji)' },
+
+	// Mauritius
+	{ lat: -20.1609, lon: 57.5012, label: 'Port Louis (Mauritius)' },
+
+	// Seychelles
+	{ lat: -4.6191, lon: 55.4513, label: 'Victoria (Seychelles)' },
+
+	// Cape Verde
+	{ lat: 14.9331, lon: -23.5133, label: 'Praia (Cape Verde)' },
+
+	// Azores
+	{ lat: 37.7412, lon: -25.6756, label: 'Ponta Delgada (Azores)' },
+
+	// Canary Islands
+	{ lat: 28.1235, lon: -15.4363, label: 'Las Palmas (Canary Islands)' },
+
+	// New Zealand offshore
+	{ lat: -46.8990, lon: 168.1000, label: 'Oban (Stewart Island)' }
 
 ]
 

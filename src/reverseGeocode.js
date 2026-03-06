@@ -8,7 +8,14 @@ export async function reverseGeocode(lat, lon) {
 
   const point = [lon, lat]
 
-  for (const feature of tile.features) {
+  // Ensure land polygons are checked before ocean polygons
+  const features = tile.features.slice().sort((a, b) => {
+    const aIsLand = a.properties.type === 'land' ? 0 : 1
+    const bIsLand = b.properties.type === 'land' ? 0 : 1
+    return aIsLand - bIsLand
+  })
+
+  for (const feature of features) {
     if (feature.bbox && !pointInBbox(point, feature.bbox)) continue
     if (pointInPolygon(point, feature.geometry)) {
       return feature.properties
