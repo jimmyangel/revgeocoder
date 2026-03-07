@@ -66,7 +66,7 @@ const tests = [
 	{ lat: -39.0556, lon: 174.0752, label: 'New Plymouth' },
 	{ lat: -38.6857, lon: 176.0702, label: 'Rotorua' },
 	{ lat: -46.4132, lon: 168.3538, label: 'Invercargill' },
-	{ lat: -36.8310, lon: 175.7900, label: 'Coromandel Peninsula' },
+	{ lat: -36.8410, lon: 175.7900, label: 'Coromandel Peninsula' },
 	{ lat: -34.4263, lon: 172.6800, label: 'Northland (Far North)' },
 	{ lat: -40.9006, lon: 174.8860, label: 'Cook Strait (ocean)' },
 
