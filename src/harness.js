@@ -144,7 +144,17 @@ const tests = [
 	{ lat: 28.1235, lon: -15.4363, label: 'Las Palmas (Canary Islands)' },
 
 	// New Zealand offshore
-	{ lat: -46.8990, lon: 168.1000, label: 'Oban (Stewart Island)' }
+	{ lat: -46.8990, lon: 168.1000, label: 'Oban (Stewart Island)' },
+
+	// La Réunion (France)
+	{ lat: -20.8821, lon: 55.4500, label: 'Saint-Denis (Réunion)' },
+	{ lat: -21.1151, lon: 55.5364, label: 'Le Tampon (Réunion)' },
+	{ lat: -21.2833, lon: 55.4667, label: 'Saint-Pierre (Réunion)' },
+
+	// New Caledonia (France)
+	{ lat: -22.2758, lon: 166.4580, label: 'Nouméa (New Caledonia)' },
+	{ lat: -21.7000, lon: 165.9000, label: 'Koné (New Caledonia)' },
+	{ lat: -20.9000, lon: 165.3333, label: 'Pouebo (New Caledonia)' }
 
 ]
 
